@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_4">
+
+
+    <ListView
+        android:layout_below="@+id/text"
+        android:id="@+id/listview_Dienmay"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="469dp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điện Máy Quân"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:layout_marginLeft="125dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="han hanh don tiep"
+        android:layout_below="@+id/listview_Dienmay"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#E91E63"/>
+    <Button
+        android:id="@+id/btthoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thoát"
+        android:textColor="#FFC107">
+
+    </Button>
+
+
+
+</RelativeLayout>
